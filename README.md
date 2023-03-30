@@ -24,6 +24,7 @@ This application is written on the [PyQt5](https://pypi.org/project/PyQt5/) appl
 - Installing the PyQt5 module -pip install PyQt5
 - Installing the aiosqlite module -pip install aiosqlite
 - Installing the asyncqt module -pip install asyncqt
+- Run Main.py 
 
 ### Project structure
 
