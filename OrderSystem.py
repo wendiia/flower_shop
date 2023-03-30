@@ -384,7 +384,6 @@ class OrderSystem(QMainWindow):
             res = str((await self.db.last_id_orders())[0] + 1)
 
             self.ui.tbl.insertRow(row_position)
-            self.ui.tbl.insertRow(row_position)
             self.widgets_mas.append([ComboPickFlavor(self, self.dict_flavor_id), DateEdit(self), DateEdit(self)])
 
             self.ui.tbl.setItem(row_position, 0, QtWidgets.QTableWidgetItem(res))
