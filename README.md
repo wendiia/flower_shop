@@ -1,43 +1,43 @@
 # order_flowers_system
 
-This application is written on the [PyQt5](https://pypi.org/project/PyQt5/) application toolkit.
+Программа написана с помощью библиотеки [PyQt5](https://pypi.org/project/PyQt5/) для создания приложений с визуальным интерфейсом.
 
-## What this application can do?
-###### The application allows you to manage the database:
-- Keep
-- Edit
-- Delete
-- Download
+## На что способна данная программа?
+###### Данное приложение позволяет вам управлять базой данных:
+- Сохранять
+- Редактировать
+- Удалять
+- Фильтровать
 
-###### It generates a list of flowers by order:
-- There is a filter by dates
-- There is a filter for one flower
+###### Позволяет отфильтровать цветы, используемые в заказах:
+- фильтр по диапозону дат
+- фильтр по определенному цветку
 
-## Development
+## Разработка
 
-### System dependencies
+### Системные зависимости
 
 - Python 3.10
 
-### Setup environment
+### Установка окружения
 
-- Installing the PyQt5 module -pip install PyQt5
-- Installing the aiosqlite module -pip install aiosqlite
-- Installing the asyncqt module -pip install asyncqt
-- Run Main.py 
+- Установите модуль PyQt5 с помощью команды -pip install PyQt5
+- Установите модуль aiosqlite с помощью команды -pip install aiosqlite
+- Установите модуль asyncqt с помощью команды-pip install asyncqt
+- Запустите файл Main.py 
 
-### Project structure
+### Структура проекта
 
-- the main part of the application formation is located in the OrderSystem file
-- Creating and configuring a gui is located in the GuiApp folder
-- The application is launched in a file main.py
+- Основная логика приложения содержится в файле OrderSystem
+- Создание и настройка UI находится в папке GuiApp 
+- Приложение запускается через файл Main.py
 
-## Author
-- Novoselova varvara
+## Автор
+- Новоселова Варвара
 
-## License
-- This project is licensed under the MIT License - see the [LICENSE](https://github.com/wendiia/course_work/blob/master/LICENSE) file for details
+## Лицензия
+- Этот проект лицензирован по лицензии MIT License. Смотрите подробности в [LICENSE](https://github.com/wendiia/course_work/blob/master/LICENSE) файле
 
-## Gratitude
-- Inspiration to all
-- Successful developments
+## Благодарность
+- Вдохновения всем
+- Успешных разработок 
