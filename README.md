@@ -38,6 +38,3 @@
 ## Лицензия
 - Этот проект лицензирован по лицензии MIT License. Смотрите подробности в [LICENSE](https://github.com/wendiia/course_work/blob/master/LICENSE) файле
 
-## Благодарность
-- Вдохновения всем
-- Успешных разработок 
